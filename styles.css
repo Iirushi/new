@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #D2B48C; /* Couleur beige */
+    color: black; /* Couleur du texte en noir */
+}
+
+header {
+    background-color: #F5F5DC; /* Couleur d'arrière-plan du header en blanc cassé */
+    padding: 20px 0; /* Réduire l'espace en haut et en bas du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+}
+
+header h1 {
+    color: black; /* Couleur du texte en noir */
+    font-family: 'Great Vibes', cursive; /* Police d'écriture cursive */
+    font-style: italic; /* Style de texte en italique */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte pour une meilleure lisibilité */
+}
+
+header h1 span {
+    color: black; /* Couleur de la première lettre en noir */
+}
+
+header h2, header h3 {
+    color: black; /* Couleur du texte en noir */
+    font-style: italic; /* Style de texte en italique */
+}
+
+nav ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding: 0; /* Supprimer le padding de la liste */
+    display: flex; /* Afficher les éléments de la liste en ligne */
+    justify-content: space-around; /* Espacer les éléments de la liste */
+}
+
+nav ul li {
+    margin: 0 10px; /* Ajouter une petite marge autour des éléments de la liste */
+}
+
+nav ul li a {
+    color: black; /* Couleur du texte des liens en noir */
+    font-style: italic; /* Style de texte des liens en italique */
+    font-weight: bold; /* Poids du texte des liens en gras */
+}
+
+footer {
+    text-align: center; /* Centrer le texte dans le pied de page */
+    padding: 20px 0; /* Ajouter un espace autour du texte dans le pied de page */
+    margin-top: auto; /* Pousser le pied de page vers le bas */
+    color: black; /* Couleur du texte dans le pied de page en noir */
+}
+
+section {
+    font-family: 'Playfair Display', serif; /* Police d'écriture élégante pour les sections */
+    color: black; /* Couleur du texte en noir */
+}
